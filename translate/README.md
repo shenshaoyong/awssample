@@ -2,13 +2,16 @@
 
 ## Requirements
 There are two hard limits in Amazon Translate Custom Terminology Limits till 2021.11.3.:
+
 1.Maximum number of target languages per custom terminology file is 10. 
+
 2.A single source text(csv|tmx) is used for each term, but there can be multiple target terms, one for each language, as long as the target and source language can be used. 
 
 Some customers want more than 10 languages, and only one single text covering all languages instead of multiple source text files. 
 
 ## Solution debrief
 This solution decreases the burden of managing multiple source text files of Amazon Translate Custom Terminology by using autonomous processing all afterward jobs when uploading only one csv file composed of more than 10 languages columns.
+
 In this example, there are 30 columns in the original.csv. When it is uploaded, a trigger will call lambda function1 to split it into 30*3 files, then import all files to Amazon Translate Custom Terminology in all Amazon Translate supported regions respectively(regions = ['us-east-1','us-east-2','us-west-1','us-west-2','ap-east-1','ap-south-1','ap-northeast-2','ap-southeast-1','ap-southeast-2','ap-northeast-1','ca-central-1','eu-central-1','eu-west-1','eu-west-2','eu-west-3','eu-north-1'])
 
 Chinese introduction: 客户上传一个包含30列（语言）的术语表csv文件，通过trigger触发lambda开始读取处理这个文件，分拆成为30*3个文件，然后导入到各个translate 所在region的术语表，最后使用调用代码动态根据识别出的源语言调用相对应的术语表。客户对术语表csv更改后再进行上传即可再次启动这个自动化流程。
@@ -19,15 +22,20 @@ Note: All stepps are executed successfully in us-east-1 region. If you want to r
 ### 1.create layer in lambda
 Down this zip file from 
 [https://raw.githubusercontent.com/khanakia/aws_lambda_python_packages/master/pandas_numpy/python%203.8/python.zip] Thanks to khanakia
+
 create a layer named pandas in lambda
 ### 2.create function1 in lambda python3.8
 reference to pandas layer
+
 create a new role, adding TranslateFullAccess and AmazonS3FullAccess policies.
+
 [code](https://github.com/shenshaoyong/awssample/blob/master/translate/lambda_function1.py)
 
 ### 3.create bucket, folder, event notification
 for example, bucket name: translate-xxxx
+
 create a directroy named original
+
 create a event notification: Event types：All object create events； Filters：original/, original.csv） trigger to function1
 
 ### 4.create/edit/upload csv file with utf-8 with 30 languages to the folder
@@ -42,4 +50,5 @@ en-game2,de-game2,tr-game2,pt-game2,ar-game2,ru-game2,fr-game2,it-game2,pl-game2
 
 ## Next action(if possible)
 1. release new code when the feature(one muilti-direction text file) releases
+
 2. develop a GUI that allowing to edit csv file online.
