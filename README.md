@@ -6,4 +6,4 @@ Get clientIP throught AGA by using the header HTTP_X_FORWARDED_FOR
 
 ## 2.[Machine Leanring](https://aws.amazon.com/machine-learning/)
 ### 2.1 [Amazon Translate](https://aws.amazon.com/translate/) - [autonomous custom terminology - python](http://www.amazon.com)
-An automonous solution for importing/updating Amazon Translate Custom Terminology in all supported regions.
+[An automonous solution for importing/updating Amazon Translate Custom Terminology in all supported regions.](https://github.com/shenshaoyong/awssample/edit/master/ga/translate/readme.md)
