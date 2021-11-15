@@ -45,7 +45,7 @@ en,de,tr,pt,ar,ru,fr,it,pl,cs,fi,af,sq,am,fr-CA,hy,az,bn,bs,bg,ca,zh,zh-TW,hr,gu
 en-game1,de-game1,tr-game1,pt-game1,ar-game1,ru-game1,fr-game1,it-game1,pl-game1,cs-game1,fi-game1,af-game1,sq-game1,am-game1,fr-CA-game1,hy-game1,az-game1,bn-game1,bs-game1,bg-game1,ca-game1,zh-game1,zh-TW-game1,hr-game1,gu-game1,da-game1,fa-AF-game1,nl-game1,et-game1,fa-game1
 en-game2,de-game2,tr-game2,pt-game2,ar-game2,ru-game2,fr-game2,it-game2,pl-game2,cs-game2,fi-game2,af-game2,sq-game2,am-game2,fr-CA-game2,hy-game2,az-game2,bn-game2,bs-game2,bg-game2,ca-game2,zh-game2,zh-TW-game2,hr-game2,gu-game2,da-game2,fa-AF-game2,nl-game2,et-game2,fa-game2
 
-### 5.create function2 in lambda python3.8, and test allaUse the sma
+### 5.create function2 in lambda python3.8, and test all 
 Use the same role in step 2, or new one with TranslateFullAccess policy.
 
 [code](https://github.com/shenshaoyong/awssample/blob/master/translate/lambda_function2.py)
