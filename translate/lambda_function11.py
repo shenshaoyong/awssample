@@ -9,6 +9,7 @@ import logging
 from io import BytesIO
 
 print('Loading function')
+print("boto3="+ boto3.__version__)
 
 s3 = boto3.client('s3')
 translate = boto3.client('translate')
@@ -110,6 +111,7 @@ def lambda_handler(event, context):
                     MergeStrategy='OVERWRITE',
                     Description='{}{}'.format(group,i),
                     TerminologyData={
+                        'Directionality':'MULTI',
                         'File': file_data,
                         'Format': 'CSV'
                     }
@@ -127,6 +129,7 @@ def lambda_handler(event, context):
                         MergeStrategy='OVERWRITE',
                         Description='{}{}'.format(language,i),
                         TerminologyData={
+                            'Directionality':'MULTI',
                             'File': file_data,
                             'Format': 'CSV'
                         }
@@ -143,6 +146,7 @@ def lambda_handler(event, context):
                         MergeStrategy='OVERWRITE',
                         Description='{}{}'.format(language,i),
                         TerminologyData={
+                            'Directionality':'MULTI',
                             'File': file_data,
                             'Format': 'CSV'
                         }
@@ -159,6 +163,7 @@ def lambda_handler(event, context):
                         MergeStrategy='OVERWRITE',
                         Description='{}{}'.format(language,i),
                         TerminologyData={
+                            'Directionality':'MULTI',
                             'File': file_data,
                             'Format': 'CSV'
                         }
