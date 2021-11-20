@@ -1,6 +1,6 @@
 # An automonous solution for importing/updating Amazon Translate Custom Terminology in all supported regions
 
-NOTE:This doc and relative code had been updated after the new feature ["Amazon Translate now enables multidirectional custom terminology"](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-translate-enables-multidirectional-custom-terminology/) released on Nov18 2021.
+NOTE:This doc and relative code had been updated after the new feature ["Amazon Translate now enables multidirectional custom terminology"](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-translate-enables-multidirectional-custom-terminology/) was released on Nov18 2021.
 
 ## Requirements
 There are one hard limit in Amazon Translate Custom Terminology Limits till 2021.11.18.:
@@ -13,6 +13,8 @@ Some customers want more than 10 languages, and only one single text covering al
 This solution decreases the burden of managing multiple source text files of Amazon Translate Custom Terminology by using autonomous processing all afterward jobs when uploading only one csv file composed of more than 10 languages columns.
 
 In this example, there are 30 columns in the original.csv. When it is uploaded, a trigger will call lambda function1 to split it into (1+10+10)X3=63(30X3 for unidirection mode) files, then import all files to Amazon Translate Custom Terminology in all Amazon Translate supported regions respectively(regions = ['us-east-1','us-east-2','us-west-1','us-west-2','ap-east-1','ap-south-1','ap-northeast-2','ap-southeast-1','ap-southeast-2','ap-northeast-1','ca-central-1','eu-central-1','eu-west-1','eu-west-2','eu-west-3','eu-north-1'])
+
+![The whole process](https://github.com/shenshaoyong/awssample/blob/master/translate/process.png) 
 
 Chinese introduction: 客户上传一个包含30列（语言）的术语表csv文件，通过trigger触发lambda开始读取处理这个文件，分拆成为(1+10+10)*3=63个文件，然后导入到各个translate 所在region的术语表，最后使用调用代码动态根据识别出的源语言调用相对应的术语表。客户对术语表csv更改后再进行上传即可再次启动这个自动化流程。
 
