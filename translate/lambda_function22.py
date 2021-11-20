@@ -29,10 +29,13 @@ def lambda_handler(event, context):
         for l in range(loop1):
             languageCode = comprehend.detect_dominant_language(Text = text).get('Languages')[0].get('LanguageCode')
             if languageCode not in languages:
-                print('languageCode:{} doesnot support,changed to default en'.format(languageCode))
+                print('languageCode:{} is not supported,changed to default en'.format(languageCode))
                 languageCode = 'en'
         t2 = datetime.datetime.now()
-        targetLanguageCode = 'fr'
+        targetLanguageCode = 'zh'
+        if targetLanguageCode not in languages:
+            print('targetLanguageCode:{} is not supported,changed to default en'.format(targetLanguageCode))
+            targetLanguageCode = 'en'
         if {languageCode,targetLanguageCode}.issubset(languagesG1):
             terminologyName = '{}1'.format(group)
         elif {languageCode,targetLanguageCode}.issubset(languagesG2):
@@ -45,9 +48,6 @@ def lambda_handler(event, context):
             terminologyName = '{}2'.format(languageCode)
         elif targetLanguageCode in languagesG3:
             terminologyName = '{}3'.format(languageCode)
-        else:
-            terminologyName = '{}1'.format(languageCode)
-            print('targetLanguageCode:{} doesnot support'.format(targetLanguageCode))
         print('terminologyName:{} '.format(terminologyName))
         for l in range(loop1):
             result = translate.translate_text(Text=text, TerminologyNames=[terminologyName],
