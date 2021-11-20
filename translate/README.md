@@ -32,11 +32,13 @@ Down this zip file from
 [https://github.com/shenshaoyong/awssample/blob/master/translate/boto3_v1-20-10_py38-aee338fb-6bc7-4237-ab71-1665f77a5511.zip] Thanks to [jeromevdl](https://github.com/jeromevdl/boto3-lambda-layer), you can visit his git to create your own boto3 layer with specific version.
 
 create a layer named boto3 in lambda.
+
 Q: Why build this layer?
+
 A: Till 2021.11.21, the version of python sdk boto3 in lambda is 1.18.55, but the new feature "multidirectional custom terminology" of Translate needs the version of [1.20.4](https://github.com/boto/boto3/blob/9780362652c4e97fe523f074a50c8af2d6f9e6bb/.changes/1.20.4.json). So the latest version of 1.20.10 is used to build this layer to replace the built-in boto3.
 
 ### 3.create function1 in lambda python3.8
-reference to pandas layer
+reference to pandas & boto3 layer
 
 create a new role, adding TranslateFullAccess and AmazonS3FullAccess policies.
 
