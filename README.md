@@ -8,6 +8,5 @@ Get clientIP throught AGA by using the header HTTP_X_FORWARDED_FOR
 ### 2.1 [Amazon Translate](https://aws.amazon.com/translate/) - [autonomous custom terminology - python](https://github.com/shenshaoyong/awssample/blob/master/translate/README.md)
 An automonous solution for importing/updating Amazon Translate Custom Terminology in all supported regions.
 
-### 2.2 [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - [Autopilot - 
-Customer Churn Prediction with Amazon SageMaker Autopilot](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/Autopilot/autopilot_customer_churn-bankdataset.ipynb)
+### 2.2 [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - [Autopilot - Customer Churn Prediction with Amazon SageMaker Autopilot](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/Autopilot/autopilot_customer_churn-bankdataset.ipynb)
 Note:This notebook is derived from Amazon SageMaker examples https://github.com/aws/amazon-sagemaker-examples/blob/main/autopilot/autopilot_customer_churn.ipynb with UCI Bank Marketing Data Set instead of Mobile Customer Data set.
