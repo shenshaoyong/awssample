@@ -21,4 +21,5 @@ Reference to [Amazon SageMaker Example](https://github.com/aws/amazon-sagemaker-
 
 For Built-In Algorithm - Deploy CV-Object Detection-model locally, please refer to [this github repository](https://github.com/snowolf/convert-sagemaker-build-in-ssd-model-to-local-depolyable/blob/main/object_detection_image_json_format.ipynb)
 
-
+#### 2.2.3 [Distributed Training - PyTorch_native_DDP_sample_MNIST](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/PyTorch_native_DDP_sample_MNIST/README.md) 
+PyTorch_native_DDP_sample_MNIST on Amazon SageMaker
