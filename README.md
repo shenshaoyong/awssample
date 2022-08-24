@@ -16,5 +16,5 @@ Reference to [Amazon SageMaker Example](https://github.com/aws/amazon-sagemaker-
 
 For Built-In Algorithm - Deploy CV-Object Detection-model locally, please refer to [this github repository](https://github.com/snowolf/convert-sagemaker-build-in-ssd-model-to-local-depolyable/blob/main/object_detection_image_json_format.ipynb)
 
-### 2.4 [Amazon Translate](https://aws.amazon.com/translate/) - [get_metric_statistics_of_aws_translate_from_cloudwatch - python]([https://github.com/shenshaoyong/awssample/blob/master/translate/README.md](https://github.com/shenshaoyong/awssample/tree/master/translate2#readme))
+### 2.4 [Amazon Translate](https://aws.amazon.com/translate/) - [get_metric_statistics_of_aws_translate_from_cloudwatch - python](https://github.com/shenshaoyong/awssample/tree/master/translate2#readme)
 A python sample for get_metric_statistics_of_aws_translate_from_cloudwatch.
