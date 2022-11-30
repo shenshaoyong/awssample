@@ -12,6 +12,10 @@ An automonous solution for importing/updating Amazon Translate Custom Terminolog
 #### 2.1.2 [get_metric_statistics_of_aws_translate_from_cloudwatch - python](https://github.com/shenshaoyong/awssample/tree/master/translate2#readme)
 A python sample for get_metric_statistics_of_aws_translate_from_cloudwatch.
 
+#### 2.1.3 [aws_translate_example - sdk go v2](https://github.com/shenshaoyong/aws-translate-example-go-v2/blob/main/README.md)
+A go sample with aws go sdk v2 for AWS Translate.
+
+
 ### 2.2 [Amazon SageMaker](https://aws.amazon.com/sagemaker/) 
 #### 2.2.1[Autopilot - Customer Churn Prediction with Amazon SageMaker Autopilot](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/Autopilot/autopilot_customer_subscribe_bankdataset.ipynb)
 Note:This notebook is derived from Amazon SageMaker examples https://github.com/aws/amazon-sagemaker-examples/blob/main/autopilot/autopilot_customer_churn.ipynb with UCI Bank Marketing Data Set instead of Mobile Customer Data set.
