@@ -27,3 +27,6 @@ For Built-In Algorithm - Deploy CV-Object Detection-model locally, please refer 
 
 #### 2.2.3 [Distributed Training - PyTorch_native_DDP_sample_MNIST](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/PyTorch_native_DDP_sample_MNIST/README.md) 
 PyTorch_native_DDP_sample_MNIST on Amazon SageMaker
+
+#### 2.2.4 [training-wenet-on-Amazon SageMaker - 'examples/librispeech/s0' ](https://github.com/shenshaoyong/training-wenet-on-SageMaker)
+training 'examples/librispeech/s0' of wenet on Amazon SageMaker
