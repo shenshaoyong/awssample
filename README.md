@@ -15,6 +15,8 @@ A python sample for get_metric_statistics_of_aws_translate_from_cloudwatch.
 #### 2.1.3 [aws_translate_example - sdk go v2](https://github.com/shenshaoyong/aws-translate-example-go-v2/blob/main/README.md)
 A go sample with aws go sdk v2 for AWS Translate.
 
+#### 2.1.4 [Amazon transcribe translate realtime stream - python](https://github.com/shenshaoyong/Amazon_transcribe_translate_realtime_stream)
+Amazon_transcribe_translate_realtime_stream
 
 ### 2.2 [Amazon SageMaker](https://aws.amazon.com/sagemaker/) 
 #### 2.2.1[Autopilot - Customer Churn Prediction with Amazon SageMaker Autopilot](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/Autopilot/autopilot_customer_subscribe_bankdataset.ipynb)
