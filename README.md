@@ -32,3 +32,6 @@ PyTorch_native_DDP_sample_MNIST on Amazon SageMaker
 
 #### 2.2.4 [training-wenet-on-Amazon SageMaker - 'examples/librispeech/s0' ](https://github.com/shenshaoyong/training-wenet-on-SageMaker)
 training 'examples/librispeech/s0' of wenet on Amazon SageMaker
+
+#### 2.2.5 [deepctr-deepfm-tensorflow2.3-sagemaker](https://github.com/shenshaoyong/deepctr-deepfm-tensorflow2.3-sagemaker)
+deepctr-deepfm tensorflow2.3 on sagemaker
