@@ -35,3 +35,6 @@ training 'examples/librispeech/s0' of wenet on Amazon SageMaker
 
 #### 2.2.5 [deepctr-deepfm-tensorflow2.3-sagemaker](https://github.com/shenshaoyong/deepctr-deepfm-tensorflow2.3-sagemaker)
 deepctr-deepfm tensorflow2.3 on sagemaker
+
+#### 2.2.6 [SageMaker-byoc-tf2-byos-deepctr-deepfm](https://github.com/shenshaoyong/SageMaker-byoc-tf2-byos-deepctr-deepfm)
+SageMaker byoc tf2 byos deepctr deepfm
