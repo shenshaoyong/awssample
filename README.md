@@ -38,3 +38,8 @@ deepctr-deepfm tensorflow2.3 on sagemaker
 
 #### 2.2.6 [SageMaker-byoc-tf2-byos-deepctr-deepfm](https://github.com/shenshaoyong/SageMaker-byoc-tf2-byos-deepctr-deepfm)
 SageMaker byoc tf2 byos deepctr deepfm
+
+#### 2.2.7 [SageMaker-byoc-pytorch-byos-malnet-graph](https://github.com/shenshaoyong/malnet-graph-on-SageMaker)
+SageMaker byoc pytorch byos Malnet-graph
+
+https://github.com/safreita1/malnet-graph
