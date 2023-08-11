@@ -44,3 +44,9 @@ SageMaker byoc tf2 byos deepctr deepfm
 SageMaker byoc pytorch byos Malnet-graph
 
 https://github.com/safreita1/malnet-graph
+
+#### 2.2.8 [RWKV_on_Amazon_SageMaker](https://github.com/shenshaoyong/RWKV_on_Amazon_SageMaker/tree/main)
+Finetuning
+
+Deploying
+
