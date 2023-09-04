@@ -50,3 +50,8 @@ Finetuning
 
 Deploying
 
+### 2.3 [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+
+#### 2.3.1 [jupyter_ai_bedrock](https://github.com/shenshaoyong/jupyter_ai_bedrock/blob/main/README.md)
+how to configure Amazon Bedrock and Amazon SageMaker Endpoint in Jupyter AI
+
