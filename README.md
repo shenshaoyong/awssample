@@ -74,7 +74,7 @@ finetune - lora
 #### 2.3.1 [jupyter_ai_bedrock](https://github.com/shenshaoyong/jupyter_ai_bedrock/blob/main/README.md)
 how to configure Amazon Bedrock and Amazon SageMaker Endpoint in Jupyter AI
 
-#### 2.3.2 [count tokens for bedrock Claude]([https://github.com/shenshaoyong/jupyter_ai_bedrock/blob/main/README.md](https://github.com/shenshaoyong/serverless-patterns/tree/main/apigw-lambda-bedrock-sam))
+#### 2.3.2 [count tokens for bedrock Claude](https://github.com/shenshaoyong/serverless-patterns/tree/main/apigw-lambda-bedrock-sam)
 
 Amazon API Gateway to AWS Lambda to Amazon Bedrock using SAM - adding the feature of counting token
 
