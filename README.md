@@ -19,6 +19,12 @@ A go sample with aws go sdk v2 for AWS Translate.
 Amazon_transcribe_translate_realtime_stream
 Amazon_transcribe_translate_realtime_on_Amazon_connect_8kHZ_wav files
 
+#### 2.1.5 [Andriod - Amazon transcribe realtime stream - detect silence - java](https://github.com/shenshaoyong/aws-transcribe-streaming-example-android)
+
+Andriod - Amazon transcribe realtime stream - detect silence
+
+forked from [sinyu1012/aws-transcribe-streaming-example-android](https://github.com/sinyu1012/aws-transcribe-streaming-example-android)
+
 ### 2.2 [Amazon SageMaker](https://aws.amazon.com/sagemaker/) 
 #### 2.2.1[Autopilot - Customer Churn Prediction with Amazon SageMaker Autopilot](https://github.com/shenshaoyong/awssample/blob/master/SageMaker/Autopilot/autopilot_customer_subscribe_bankdataset.ipynb)
 Note:This notebook is derived from Amazon SageMaker examples https://github.com/aws/amazon-sagemaker-examples/blob/main/autopilot/autopilot_customer_churn.ipynb with UCI Bank Marketing Data Set instead of Mobile Customer Data set.
@@ -46,12 +52,31 @@ SageMaker byoc pytorch byos Malnet-graph
 https://github.com/safreita1/malnet-graph
 
 #### 2.2.8 [RWKV_on_Amazon_SageMaker](https://github.com/shenshaoyong/RWKV_on_Amazon_SageMaker/tree/main)
-Finetuning
+[FineTunning](https://github.com/shenshaoyong/RWKV_on_Amazon_SageMaker/blob/main/rwkv-finetunning.ipynb)
 
-Deploying
+[Deploying](https://github.com/shenshaoyong/RWKV_on_Amazon_SageMaker/blob/main/rwkv-deploy-lmi.ipynb)
+
+#### 2.2.9 [BaiChuan2 on Amazon SageMaker](https://github.com/shenshaoyong/baichuan2-finetune-deploy-on-sagemaker/tree/main)
+deploy
+
+LMI-HuggingFaceAccelerate [baichuan2-LMI-HuggingFaceAccelerateModel.ipynb](https://github.com/shenshaoyong/baichuan2-finetune-deploy-on-sagemaker/blob/main/baichuan2-LMI-HuggingFaceAccelerateModel.ipynb)
+
+TGI  [Deploy-Baichuan2-on-TGI-1.1.0.ipynb](https://github.com/shenshaoyong/baichuan2-finetune-deploy-on-sagemaker/blob/main/Deploy-Baichuan2-on-TGI-1.1.0.ipynb)
+
+finetune - lora
+
+[baichun2-finetuning.ipynb](https://github.com/shenshaoyong/baichuan2-finetune-deploy-on-sagemaker/blob/main/baichun2-finetuning.ipynb)
+
+
 
 ### 2.3 [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 
 #### 2.3.1 [jupyter_ai_bedrock](https://github.com/shenshaoyong/jupyter_ai_bedrock/blob/main/README.md)
 how to configure Amazon Bedrock and Amazon SageMaker Endpoint in Jupyter AI
+
+#### 2.3.2 [count tokens for bedrock Claude]([https://github.com/shenshaoyong/jupyter_ai_bedrock/blob/main/README.md](https://github.com/shenshaoyong/serverless-patterns/tree/main/apigw-lambda-bedrock-sam))
+
+Amazon API Gateway to AWS Lambda to Amazon Bedrock using SAM - adding the feature of counting token
+
+forked from [aws-samples/serverless-patterns](https://github.com/aws-samples/serverless-patterns)
 
