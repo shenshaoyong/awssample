@@ -67,7 +67,9 @@ finetune - lora
 
 [baichun2-finetuning.ipynb](https://github.com/shenshaoyong/baichuan2-finetune-deploy-on-sagemaker/blob/main/baichun2-finetuning.ipynb)
 
-
+#### 2.2.10 [Suno/Bark on Amazon SageMaker](https://github.com/shenshaoyong/suno_bark_on_SageMaker)
+Deploy suno/bark on Amazon SageMaker with BYOS(Bring Your Own Script)
+[jupyter notebook file](https://github.com/shenshaoyong/suno_bark_on_SageMaker/blob/main/suno%20bark%20on%20SageMaker%20byos.ipynb)
 
 ### 2.3 [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 
